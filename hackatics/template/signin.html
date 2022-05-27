@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="/static/home.css">
+  <link rel="stylesheet" href="/static/signin.css">
+  
+</head>
+<body>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+          TakshilaTech
+          </div>
+        </div>
+          <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+      
+        
+        <div class="nav-links">
+          <a href="#" >Home</a>
+          <a href="#" >About</a>
+          <a href="#" >services</a>
+          <a href="#" >Contact us</a>
+          <a href="#" >Sign-Up</a>
+          <a href="#" >Sign-in</a>
+        </div>
+      </div>
+
+     
+      <div class="container">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="email">E-mail</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="email"  placeholder="Enter your email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="password">Password</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="pswd"  placeholder="Enter Your password">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+            </div>
+          </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Sign-in">
+          </div>
+        </form>
+      </div>
+      
+
+
+
+</body>
+</html>
